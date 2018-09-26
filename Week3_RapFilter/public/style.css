@@ -1,0 +1,56 @@
+body{
+    padding: 20px;
+    font-family: sans-serif;
+
+}
+
+
+
+.container{
+    padding-top: 50%;
+}
+
+#title{
+    /* padding-left: 5%; */
+    font-size: 172px;
+    text-align: center;    
+}
+
+
+
+.inputs{
+    padding-top: 3%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.down{
+    padding-top: 3%;
+    padding-left: 20%;
+    padding-right: 20%; 
+    /* height: 80%; */
+}
+
+
+#left {
+  /*background-color: ;*/
+  position: absolute;
+  left: 0px;
+  width: 42%;
+  margin: 5%;
+}
+
+#right{
+  /*background-color: #b6701e;*/
+  position: absolute;
+  right: 0px;
+  width: 42%;
+  margin: 5%;
+
+}
+
+#results{
+    padding-top: 40%;
+}
+
+
