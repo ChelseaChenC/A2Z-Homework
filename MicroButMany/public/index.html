@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		Micro but many
+	</title>
+
+	<script src='https://code.jquery.com/jquery-3.0.0.min.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js'></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Glegoo|Montserrat:200,300,400,600,800" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css">
+</head>
+
+<body>
+	<div class="title"><h1>Micro But Many</h1></div>
+
+
+	<div class="container">
+		<div id="leftMenu">
+			<div id="leftContent">
+				<div class="all">
+				</div>
+				
+			</div>
+		</div>
+
+
+		<div class="form-group">
+			<label id="typeHere" for="trouble">DEAR ABBY:</label>
+		<br/>
+			<textarea class="form-control" placeholder="type your troubles here..." rows="8" id="trouble"></textarea>
+			<br/>
+			<button id="submit" type="button" class="btn btn-light">I want to feel better :(</button>
+		    <p></p>
+		</div>
+
+		<!-- <div id="logo">
+				<p id="name">Designed and developed by Chelsea Chen Chen 2018</p>
+			</div> -->
+	
+	
+	<div class="chart">
+		<div id="scrollContainer">
+			<svg></svg>
+
+			<div class="tooltip">
+				<!-- <img id="thumbnail"/> -->
+				<div id="date"></div>
+				<div id="question"></div>		
+			</div>
+
+			<div class="tooltip2 hidden">
+				<div id="date2"></div>
+				<div id="response"></div>
+			    </div>
+				<br>
+
+				    	<div>
+						    <!-- <a id="wikiLink"><i class="fas fa-puzzle-piece"></i> Read Wiki</a> -->
+						</div>
+
+						<div>
+							<!-- <a target="_blank" id="tateLink"><i class="fas fa-braille"></i> Link to Tate</a> -->
+						</div>
+				   </div>    
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<script src="https://d3js.org/d3.v4.js"></script>
+	<script src="sketch.js"></script>
+	<script>
+		//Code to be executed once the page has fully loaded
+		$(document).ready(function () {
+			console.log("LOADED!!!!");
+			app.initialize();
+		});
+	</script>
+
+
+</body>
+
+
+</html>
